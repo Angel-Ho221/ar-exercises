@@ -5,22 +5,22 @@ puts "----------"
 
 # Your code goes below here ...
 
-Store.create(name: "Burnaby",
-annual_revenue: 300000,
-mens_apparel: true,
-womens_apparel: true
+Store.create(name: "Burnaby", 
+annual_revenue: 300000, 
+womens_apparel: true, 
+mens_apparel: true
 )
 
-Store.create(name: "Richmond",
-annual_revenue: 1260000
-mens_apparel: false,
-womens_apparel: true
+Store.create(name: "Richmond", 
+annual_revenue: 1260000, 
+womens_apparel: true, 
+mens_apparel: false
 )
 
-Store.create(name: "Gastown",
-annual_revenue: 190000,
-mens_apparel: true,
-womens_apparel: false
+Store.create(name: "Gastown", 
+annual_revenue: 190000, 
+womens_apparel: false,
+mens_apparel: true
 )
 
 #output the number of the stores using AR count method
